@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EnvComplianceTracker.Api/EnvComplianceTracker.Api.csproj" />
+    <Project Path="src/EnvComplianceTracker.Domain/EnvComplianceTracker.Domain.csproj" />
+    <Project Path="src/EnvComplianceTracker.Infrastructure/EnvComplianceTracker.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EnvComplianceTracker.Api.Tests/EnvComplianceTracker.Api.Tests.csproj" />
+  </Folder>
+</Solution>
