@@ -4,20 +4,6 @@ A full-stack application for tracking environmental compliance reports, with
 role-based access and an audit trail. .NET 10 Web API backend, React + Vite
 frontend.
 
-## Architecture
-
-Clean-architecture layering across three projects:
-
-- **`src/EnvComplianceTracker.Domain`**: entities and domain logic
-- **`src/EnvComplianceTracker.Infrastructure`**: EF Core (`ComplianceDbContext`),
-  password hashing, data seeding
-- **`src/EnvComplianceTracker.Api`**: ASP.NET Core Web API, JWT auth, role
-  enforcement, current-user resolution
-
-The frontend lives in **`client/`** (React 19 + Vite). Tests are in
-**`tests/EnvComplianceTracker.Api.Tests`** (xUnit + `WebApplicationFactory`),
-covering reports, auth/roles, and the audit trail.
-
 ## Run
 
 ```bash
