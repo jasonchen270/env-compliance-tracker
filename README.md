@@ -1,6 +1,6 @@
 # env-compliance-tracker
 
-A full-stack application for tracking environmental compliance reports, with role-based access and an audit trail. The backend is a .NET 10 Web API and the frontend is built with React and Vite.
+A full-stack application for tracking environmental compliance reports, with role-based access and an audit trail. The backend is a .NET Web API and the frontend is built with React and Vite.
 
 ## Prerequisites
 
